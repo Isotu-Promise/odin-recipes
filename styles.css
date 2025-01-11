@@ -1,0 +1,16 @@
+/* styles.css */
+
+div {
+    color: orange(255, 255, 255);
+    background-color: orange;
+  }
+  
+  h1 {
+    color: red;
+  }
+  body {
+    background-color: white;
+  }
+  
+  
+  
