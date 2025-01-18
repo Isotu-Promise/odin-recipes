@@ -1,0 +1,61 @@
+
+.chicken-shawarma {
+    border-style: none;
+    border-color: #000;
+    font-family: sans-serif;
+    background-color: white;
+    
+}
+
+div h1{
+    background-color: lightgreen;
+    padding: auto;
+    height: 100px;
+    text-align: center;
+    font-size: 100;
+
+}
+
+.first-image img {
+
+    width: 100%;
+    
+
+}
+img {
+    width: 80%;
+    
+}
+h1 {
+    font-weight: bold;
+    
+}
+h2 {
+
+    font-weight: bold;
+    font-style: italic;
+    color: violet;
+
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+
+}
+h3 {
+    background-color: #ff000085;
+    background-size: auto;
+    color: white;
+}
+
+
+/* egg-sauce.html page */
+
+.egg-sauce {
+    padding: auto;
+    image-resolution: bold;
+}
+img {
+    width: 80%;
+}
