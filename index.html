@@ -3,17 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Link CSS to HTML</title>
+    <!--Using inernal CSS -->
+<style>
+    *{
+        background-color: aqua;
+        font-family: sans-serif Arial, Helvetica, sans-serif;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    .title h1{
+        color: white;
+        font: 25rem solid;
+        padding: 1px;
+    }
+    .links{
+        margin: 10px 5px;
+    
+    }
+    .shawarma{
+        margin: 3px 5px 5px 5px;
+        padding: 2em;
+        background: white;
+        
+    }
+    .Sauce{
+        margin: 3px 5px 5px 5px;
+        padding: 2em;
+        background: blanchedalmond;
+    }
+    .Soup{
+        margin: 3px 5px 5px 5px;
+        padding: 2em;
+        background: gold;
+    }
+
+
+
+
+    
+
+
+</style>
+    
+  
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <p><li><a href="recipes/shawarma.html">Shawarma Recipe</a></li></p>
-        <p><li><a href="recipes/egg-sauce.html">Egg Sauce</a></li></p>
-        <p><li><a href="recipes/afang-soup.html">Niger Afang Soup</a></li></p>
-    
-    
-    </ul>
-    
+   <div> 
+    <div class="title"> <h1>Odin Recipes</h1></div>
+
+    <div>
+    <ul class="links"> 
+       <div> <li class="shawarma"><a href="recipes/shawarma.html">Shawarma Recipe</a></li></div>
+       <div> <li class="Sauce"><a href="recipes/egg-sauce.html">Egg Sauce</a></li></div>
+       <div><li class="Soup"><a href="recipes/afang-soup.html">Niger Afang Soup</a></li> </ul></div>
+</div>
+</div>
+
 </body>
 </html>
